@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.example.loancalculator</OriginalElement>
+  <nodes>
+    <node x="336.9107473544975" y="2316.0">com.example.loancalculator.controller.LoanDataController</node>
+    <node x="827.8087665343915" y="735.0">com.example.loancalculator.model.LoanData</node>
+    <node x="220.83750330687838" y="1119.0">com.example.loancalculator.repository.AmortizationSchedulePartRepository</node>
+    <node x="1125.1458333333333" y="1843.0">com.example.loancalculator.service.AmortizationSchedulePartServiceTest</node>
+    <node x="403.6607473544975" y="1854.0">com.example.loancalculator.service.LoanDataService</node>
+    <node x="994.6458333333333" y="2184.0">com.example.loancalculator.service.LoanDataServiceTest</node>
+    <node x="737.5587665343915" y="0.0">com.example.loancalculator.model.AmortizationSchedulePart</node>
+    <node x="682.21875" y="1656.0">com.example.loancalculator.repository.LoanDataRepository</node>
+    <node x="10.5" y="1602.0">com.example.loancalculator.service.AmortizationSchedulePartService</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.loancalculator.service.LoanDataServiceTest" target="com.example.loancalculator.model.LoanData">
+      <point x="37.75" y="-212.5" />
+      <point x="1258.8958333333333" y="2144.0" />
+      <point x="1434.6458333333333" y="2144.0" />
+      <point x="1434.6458333333333" y="1582.0" />
+      <point x="1286.8712665343915" y="1582.0" />
+      <point x="176.5625" y="398.5" />
+    </edge>
+    <edge source="com.example.loancalculator.service.LoanDataServiceTest" target="com.example.loancalculator.repository.LoanDataRepository">
+      <point x="-37.75" y="-212.5" />
+      <point x="1183.3958333333333" y="2134.0" />
+      <point x="1072.4092592592594" y="2134.0" />
+      <point x="1072.4092592592594" y="1823.0" />
+      <point x="1108.8854166666665" y="1823.0" />
+      <point x="170.66666666666663" y="26.5" />
+    </edge>
+    <edge source="com.example.loancalculator.service.LoanDataServiceTest" target="com.example.loancalculator.service.LoanDataService">
+      <point x="-113.25" y="-212.5" />
+      <point x="1107.8958333333333" y="2144.0" />
+      <point x="816.1607473544975" y="2144.0" />
+      <point x="165.0" y="124.5" />
+    </edge>
+    <edge source="com.example.loancalculator.service.LoanDataServiceTest" target="com.example.loancalculator.model.AmortizationSchedulePart">
+      <point x="188.75" y="-212.5" />
+      <point x="1409.8958333333333" y="2164.0" />
+      <point x="1488.8204034391533" y="2164.0" />
+      <point x="1488.8204034391533" y="685.0" />
+      <point x="1174.8365443121693" y="685.0" />
+      <point x="205.77777777777783" y="332.5" />
+    </edge>
+    <edge source="com.example.loancalculator.model.AmortizationSchedulePart" target="com.example.loancalculator.model.LoanData">
+      <point x="51.44444444444457" y="332.5" />
+      <point x="1020.503210978836" y="715.0" />
+      <point x="1251.5587665343915" y="715.0" />
+      <point x="141.25" y="-398.5" />
+    </edge>
+    <edge source="com.example.loancalculator.service.LoanDataService" target="com.example.loancalculator.model.LoanData">
+      <point x="70.71428571428567" y="-124.5" />
+      <point x="721.8750330687832" y="1823.0" />
+      <point x="671.71875" y="1823.0" />
+      <point x="671.71875" y="1572.0" />
+      <point x="1004.3712665343915" y="1572.0" />
+      <point x="-105.9375" y="398.5" />
+    </edge>
+    <edge source="com.example.loancalculator.repository.LoanDataRepository" target="com.example.loancalculator.model.LoanData">
+      <point x="0.0" y="-26.5" />
+      <point x="938.21875" y="1582.0" />
+      <point x="1074.9962665343915" y="1582.0" />
+      <point x="-35.3125" y="398.5" />
+    </edge>
+    <edge source="com.example.loancalculator.service.AmortizationSchedulePartService" target="com.example.loancalculator.repository.AmortizationSchedulePartRepository">
+      <point x="126.0" y="-80.5" />
+      <point x="451.5" y="1582.0" />
+      <point x="439.8375033068784" y="1582.0" />
+      <point x="73.0" y="14.5" />
+    </edge>
+    <edge source="com.example.loancalculator.model.LoanData" target="com.example.loancalculator.model.AmortizationSchedulePart">
+      <point x="-141.25" y="-398.5" />
+      <point x="0.0" y="332.5" />
+    </edge>
+    <edge source="com.example.loancalculator.service.LoanDataServiceTest" target="com.example.loancalculator.service.AmortizationSchedulePartService">
+      <point x="-188.75" y="-212.5" />
+      <point x="1032.3958333333333" y="2154.0" />
+      <point x="101.30175595238074" y="2154.0" />
+      <point x="101.30175595238074" y="1823.0" />
+      <point x="89.25" y="1823.0" />
+      <point x="-236.25" y="80.5" />
+    </edge>
+    <edge source="com.example.loancalculator.service.AmortizationSchedulePartServiceTest" target="com.example.loancalculator.service.AmortizationSchedulePartService">
+      <point x="-119.59999999999991" y="-135.5" />
+      <point x="1155.0458333333333" y="1783.0" />
+      <point x="561.75" y="1783.0" />
+      <point x="236.25" y="80.5" />
+    </edge>
+    <edge source="com.example.loancalculator.service.LoanDataService" target="com.example.loancalculator.model.AmortizationSchedulePart">
+      <point x="-212.1428571428571" y="-124.5" />
+      <point x="439.0178902116404" y="1813.0" />
+      <point x="0.0" y="1813.0" />
+      <point x="0.0" y="685.0" />
+      <point x="763.2809887566136" y="685.0" />
+      <point x="-205.77777777777783" y="332.5" />
+    </edge>
+    <edge source="com.example.loancalculator.service.AmortizationSchedulePartService" target="com.example.loancalculator.model.LoanData">
+      <point x="252.0" y="-80.5" />
+      <point x="577.5" y="1552.0" />
+      <point x="863.1212665343915" y="1552.0" />
+      <point x="-247.1875" y="398.5" />
+    </edge>
+    <edge source="com.example.loancalculator.service.LoanDataService" target="com.example.loancalculator.service.AmortizationSchedulePartService">
+      <point x="-141.42857142857144" y="-124.5" />
+      <point x="509.7321759259261" y="1803.0" />
+      <point x="246.75" y="1803.0" />
+      <point x="-78.75" y="80.5" />
+    </edge>
+    <edge source="com.example.loancalculator.repository.AmortizationSchedulePartRepository" target="com.example.loancalculator.model.AmortizationSchedulePart">
+      <point x="0.0" y="-14.5" />
+      <point x="366.8375033068784" y="715.0" />
+      <point x="917.6143220899471" y="715.0" />
+      <point x="-51.44444444444446" y="332.5" />
+    </edge>
+    <edge source="com.example.loancalculator.service.AmortizationSchedulePartServiceTest" target="com.example.loancalculator.model.AmortizationSchedulePart">
+      <point x="119.59999999999991" y="-135.5" />
+      <point x="1394.2458333333332" y="1823.0" />
+      <point x="1477.8204034391533" y="1823.0" />
+      <point x="1477.8204034391533" y="695.0" />
+      <point x="1123.3920998677247" y="695.0" />
+      <point x="154.33333333333326" y="332.5" />
+    </edge>
+    <edge source="com.example.loancalculator.service.AmortizationSchedulePartService" target="com.example.loancalculator.model.AmortizationSchedulePart">
+      <point x="-252.0" y="-80.5" />
+      <point x="73.5" y="1582.0" />
+      <point x="188.48217592592619" y="1582.0" />
+      <point x="188.48217592592619" y="695.0" />
+      <point x="814.7254332010582" y="695.0" />
+      <point x="-154.33333333333337" y="332.5" />
+    </edge>
+    <edge source="com.example.loancalculator.service.AmortizationSchedulePartServiceTest" target="com.example.loancalculator.model.LoanData">
+      <point x="0.0" y="-135.5" />
+      <point x="1274.6458333333333" y="1572.0" />
+      <point x="1216.2462665343915" y="1572.0" />
+      <point x="105.9375" y="398.5" />
+    </edge>
+    <edge source="com.example.loancalculator.service.LoanDataService" target="com.example.loancalculator.repository.LoanDataRepository">
+      <point x="212.1428571428571" y="-124.5" />
+      <point x="863.3036044973546" y="1823.0" />
+      <point x="938.21875" y="1823.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.example.loancalculator.controller.LoanDataController" target="com.example.loancalculator.service.LoanDataService">
+      <point x="104.75" y="-80.5" />
+      <point x="0.0" y="124.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="668.4999999999998" y="1037.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
